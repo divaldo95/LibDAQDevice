@@ -30,7 +30,8 @@
 namespace DAQCommon
 {
     // Define the callback function signature
-    using CallbackFunc = void(*)(MeasurementStatus, const char*);
+    using MeasurementStatusChangedCallbackFunc = void(*)(MeasurementStatus, const char*);
+    using EventCountChangedCallbackFunc = void(*)(uint32_t);
 
     uint64_t get_millis();
     uint64_t get_sec();

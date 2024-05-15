@@ -19,6 +19,11 @@ make -jN (where N is the number of jobs to run simultaneously)
 ```
 
 ## Changelog
+### 2024.05.15
+- Implemented new interfaces
+- Event driven measurement
+- Minor modifications
+
 ### 2024.05.14
 - Created the library with old functions and interfaces
 
@@ -34,5 +39,10 @@ make -jN (where N is the number of jobs to run simultaneously)
 3. Run and check the output (In [CSharpTest](CSharpTest) folder issue `dotnet run` command)
 
 ## Changelog
+### 2024.05.15
+- Implemented new interfaces
+- Added stripped down version of Serial port and its devices
+- Working test code
+
 ### 2024.05.14
 - Test application for the library
